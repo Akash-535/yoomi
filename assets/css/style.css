@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.font_plus_jakartas {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.mobile-nav.active {
+  left: 0;
+  right: 50%;
+}
+.btn {
+  transition: transform 0.3s ease;
+}
+.btn2 {
+  transition: transform 0.3s ease;
+}
+.btn1 {
+  transition: opacity 0.3s ease;
+}
+.active .btn {
+  transform: rotate(47deg) translate(7.5px, 9px);
+}
+.active .btn2 {
+  transform: rotate(-47deg) translate(7.5px, -10px);
+}
+.active .btn1 {
+  opacity: 0;
+}
+.sliderOne .slick-list .slick-track {
+  display: flex;
+  gap: 35px;
+  width: 460px !important;
+  margin: 0 !important;
+}
+.prev {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+.next {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+.next:hover {
+  background-color: #076787;
+}
+.next:hover path {
+  fill: white;
+}
+.prev:hover {
+  background-color: #076787;
+}
+.prev:hover path {
+  fill: white;
+}
+
+.slider-bottom .slick-track {
+  gap: 40px !important;
+  display: flex !important;
+  min-height: 144px !important;
+  align-items: center !important;
+}
+.slider-bottom .slick-track .slick-current {
+  scale: 1.5;
+  border-radius: 4px !important;
+}
+.slider-box .slick-track {
+  display: flex !important;
+  gap: 35px !important;
+}
+.slider-box .slick-track .slick-slide {
+  max-width: 460px !important;
+}
