@@ -70,6 +70,5 @@ $(document).ready(function() {
     focusOnSelect: true,
       infinite: true,
       variableWidth: true,
-      ariaHidden:true,
-  });
+       });
 });
