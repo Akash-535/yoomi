@@ -57,7 +57,8 @@
                         CarolinaBlue: '#97C1CF',
                         LightGrey: '#D5D9D8',
                         GhostWhite: '#F5F8FA',
-                        Platinum: '#E6E6E6'
+                        Platinum: '#E6E6E6',
+                        DarkIndigo: '#110163',
                     },
                     fontSize: {
                         '3xl': '32px',
@@ -119,7 +120,7 @@
             src="./assets/images/svg/left-plant-port.svg" alt="plant port">
         <img class="absolute top-1/2 right-[20%] max-md:hidden pointer-events-none"
             src="./assets/images/svg/right-plant-port.svg" alt="plant port">
-        <div class="bg-MilkWhite ">
+        <div class="bg-MilkWhite h-full">
             <!-- ==Navbar== -->
             <div class="flex justify-center relative z-10">
                 <div class="container px-5 text-center relative mx-auto">
@@ -196,7 +197,7 @@
                     class="hero-email flex justify-between mt-14 border border-transparent bg-white py-2 rounded ps-3 pe-1 shadow ">
                     <input type="email" placeholder="Enter Your Email" class="placeholder:text-black outline-none">
                     <div><button
-                            class="hover:animate-pulse  text-base max-md:text-sm text-center bg-VeniceBlue font-medium border border-transparent  leading-[23.52px] text-white  rounded py-3 px-4 duration-300 hover:shadow-bg-shadow hover:text-VeniceBlue hover:border  hover:border-VeniceBlue">Get
+                            class="hover:animate-pulse  text-base max-md:text-sm text-center bg-VeniceBlue font-semibold border border-transparent  leading-[23.52px] text-white  rounded py-2.5 px-4 duration-300 hover:shadow-bg-shadow hover:text-VeniceBlue hover:border  hover:border-VeniceBlue">Get
                             Started</button></div>
                 </div>
             </div>
@@ -215,7 +216,7 @@
     <!-- ==Explore Our Amazing Features== -->
     <section class="pb-24 max-md:pb-16 relative">
         <img class="absolute left-0 -bottom-20 -z-10" src="./assets/images/svg/section-between-img.svg" alt="plus">
-        <div class="container overflow-x-hidden shadow-containerShadow rounded-2xl">
+        <div class="container overflow-x-hidden shadow-containerShadow rounded-2xl bg-bottom bg-white">
             <div class="text-center">
                 <p class="text-VeniceBlue text-base font-medium">Features</p>
                 <p class="text-4xl font-normal font_plus_jakartas max-xl:text-3xl">Explore Our <span
@@ -304,7 +305,8 @@
     <section class="pb-24 max-md:pb-16 relative">
         <img class="absolute right-0 -bottom-20 -z-10" src="./assets/images/svg/section-between-img.svg" alt="plus">
         <div class="container relative">
-            <div class="row flex max-lg:flex-col shadow-containerShadow py-14 max-md:py-9 pl-8 pr-7 rounded-3xl">
+            <div
+                class="row flex max-lg:flex-col shadow-containerShadow py-14 max-md:py-9 pl-8 pr-7 rounded-3xl bg-white">
                 <div class="w-6/12 max-lg:w-full  content-center">
                     <div class="relative">
                         <div class="shadow-[0px_0px_18.03px_0px_#0000000D;] max-lg:hidden pointer-events-none">
@@ -360,7 +362,7 @@
     </section>
     <!-- ==Reporting section== -->
     <section class="pb-24 max-md:pb-16">
-        <div class="container shadow-containerShadow rounded-2xl relative z-20">
+        <div class="container shadow-containerShadow rounded-2xl relative z-20 bg-white">
             <img class="absolute left-0 bottom-0" src="./assets/images/svg/container-bottom-img.svg" alt="plus">
             <div class="row max-lg:flex-col flex py-12 max-md:py-8">
                 <div class="w-6/12 max-lg:w-full flex flex-col content-center items-center justify-center">
@@ -393,7 +395,8 @@
     </section>
     <!-- ==Through Our Platform== -->
     <section class="pb-24 max-md:pb-16">
-        <div class=" bg-GhostWhite">
+        <div class=" bg-GhostWhite relative">
+            <img class="absolute top-0 right-0" src="./assets/images/svg/platform-layer.svg" alt="layer">
             <div class="container py-20">
                 <div class="text-center">
                     <p class="text-VeniceBlue text-balance font-medium">Platform</p>
@@ -437,25 +440,26 @@
         <div class="container flex justify-center items-center flex-col">
             <div class="text-center">
                 <p class="text-base font-medium text-VeniceBlue">Partners</p>
-                <p class="text-4xl font-normal max-w-[648px] mx-auto font_plus_jakartas leading-[120%]">Recognized by
+                <p class="text-4xl max-lg:text-3xl font-normal max-w-[648px] mx-auto font_plus_jakartas leading-[120%]">
+                    Recognized by
                     Leading <span class="font-semibold">Healthcare
                         Institutions</span></p>
             </div>
             <div class="flex gap-6  flex-wrap mt-9 justify-center">
                 <div class="py-6 flex justify-center items-center w-52 border border-Platinum shadow-healthCare">
-                    <img src="./assets/images/svg/nih.svg" alt="nih">
+                    <img class="pointer-events-none" src="./assets/images/svg/nih.svg" alt="nih">
                 </div>
                 <div class=" flex justify-center items-center w-52 border border-Platinum shadow-healthCare">
-                    <img src="./assets/images/svg/vniversitit-carol.svg" alt="nih">
+                    <img class="pointer-events-none" src="./assets/images/svg/vniversitit-carol.svg" alt="nih">
                 </div>
                 <div class="py-8 flex justify-center items-center w-52 border border-Platinum shadow-healthCare">
-                    <img src="./assets/images/svg/rwj.svg" alt="nih">
+                    <img class="pointer-events-none" src="./assets/images/svg/rwj.svg" alt="nih">
                 </div>
                 <div class="py-8 flex justify-center items-center w-52 border border-Platinum shadow-healthCare">
-                    <img src="./assets/images/svg/urdu.svg" alt="nih">
+                    <img class="pointer-events-none" src="./assets/images/svg/urdu.svg" alt="nih">
                 </div>
                 <div class="py-8 flex justify-center items-center w-52 border border-Platinum shadow-healthCare">
-                    <img src="./assets/images/svg/cornell.svg" alt="nih">
+                    <img class="pointer-events-none" src="./assets/images/svg/cornell.svg" alt="nih">
                 </div>
             </div>
         </div>
@@ -465,8 +469,8 @@
         <div class="container">
             <div class="text-center">
                 <p class="text-base font-semibold text-VeniceBlue">KNOW MORE</p>
-                <p class="text-4xl font-normal max-w-[615px] mx-auto leading-[120%]">And Used by the Biggest <span
-                        class="font-semibold">Figures in Sports
+                <p class="text-4xl max-lg:text-3xl font-normal max-w-[615px] mx-auto leading-[120%]">And Used by the
+                    Biggest <span class="font-semibold">Figures in Sports
                         and Rehab</span></p>
             </div>
             <div class=" mt-9 px-3">
@@ -512,35 +516,39 @@
             </div>
     </section>
     <!-- ==Yoomi Form== -->
-    <section class="mb-[-107px]">
+    <section class="mb-[-107px] relative z-10">
         <div class="container overflow-hidden rounded-[32px] relative bg-VeniceBlue">
             <img src="./assets/images/svg/container-bottom-img.svg" alt="footer-bottom-logo"
-                class="absolute bottom-0 right-0">
+                class="absolute bottom-0 right-0 pointer-events-none">
             <div class="flex flex-wrap">
                 <div class="w-6/12 justify-center items-center flex  max-lg:w-full">
                     <div class="max-w-[441px]">
                         <a href="/">
-                            <img src="./assets/images/svg/yoomi-footer-logo.svg" alt="footer-logo">
+                            <img class="pointer-events-none" src="./assets/images/svg/yoomi-footer-logo.svg"
+                                alt="footer-logo">
                         </a>
                         <p class="plus-jakarta-font pt-7  leading-[110%] text-[30px] text-white">Sign Up to Join <span
                                 class="font-semibold"> Our Newsletter </span></p>
-                        <div class="bg-white mt-12 px-1  rounded marker: flex justify-between  py-1.5 max-w-[428px] ">
-                            <input class="w-[65%] outline-none pl-1 placeholder:text-bg-VeniceBlue font-medium"
+                        <div class="bg-white mt-12 px-1  rounded marker: flex justify-between  py-1.5 max-w-[428px]">
+                            <input
+                                class="w-[65%] outline-none pl-1 font-medium placeholder:text-DarkIndigo text-DarkIndigo"
                                 type="email" placeholder="Enter Your Email ">
                             <div><button
-                                    class="hover:animate-pulse  text-base max-md:text-sm text-center bg-VeniceBlue font-medium border border-transparent  leading-[23.52px] text-white  rounded py-3 px-4 duration-300 hover:shadow-bg-shadow hover:text-VeniceBlue hover:border  hover:border-VeniceBlue">Get
+                                    class="hover:animate-pulse  text-base max-md:text-sm text-center bg-VeniceBlue font-medium border border-transparent  leading-[23.52px] text-white  rounded py-2.5  px-4 duration-300 hover:shadow-bg-shadow hover:text-VeniceBlue hover:border  hover:border-VeniceBlue">Get
                                     Started</button></div>
                         </div>
                     </div>
                 </div>
                 <div class="w-6/12 pt-7 pb-5 flex items-center justify-center max-lg:w-full">
-                    <img class="max-w-80" src="./assets/images/webP/yoomi-old-man.webp" alt="">
+                    <img class="max-w-80 pointer-events-none" src="./assets/images/webP/yoomi-old-man.webp" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- ==Footer section -->
-    <section class="bg-black">
+    <section class="bg-black relative">
+        <img class="absolute -left-2 bottom-32 opacity-70 pointer-events-none max-sm:hidden"
+            src="./assets/images/svg/footer-left-layer.svg" alt="layer">
         <div class="container pt-[217px] pb-10 mx-auto">
             <div class="flex flex-wrap ">
                 <div class="w-7/12 max-lg:w-full">
@@ -548,7 +556,8 @@
                         <img class="pointer-events-none" src="./assets/images/svg/yoomi-footer-logo.svg"
                             alt="footer-logo">
                     </a>
-                    <p class="text-white max-w-[277px] font-light leading-[150%] pt-7">I'm a paragraph. Click here to
+                    <p class="text-white text-sm max-w-[277px] font-light leading-[150%] pt-7">I'm a paragraph. Click
+                        here to
                         add your own text and edit me. It’s easy. Just click “Edit Text” </p>
                     <a class="gap-4 text-white flex mt-7 w-48 group" href="mailto:contact@yoomi.com">
                         <img class="group-hover:animate-shake" src="./assets/images/svg/mail-logo.svg" alt="mail">
@@ -588,7 +597,7 @@
                 </div>
             </div>
         </div>
-        <div class="border border-b-2 border-white border-opacity-70"></div>
+        <div class="border-b border-white border-opacity-70"></div>
         <div class="container py-6 mx-auto">
             <div class="max-w-[304px] flex gap-7 ml-auto">
                 <a href="#" class="text-white opacity-70 text-sm max-sm:text-xs whitespace-nowrap ">Terms of Service</a>
@@ -597,6 +606,9 @@
             </div>
         </div>
     </section>
+    <!-- ==Back to top button -->
+    <button class="top-btn fixed right-5 bottom-5 duration-200 animate-bounce"><img
+            src="./assets/images/webP/back-to-top.webp" alt="back to top"></button>
     <!-- ==JS links== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
