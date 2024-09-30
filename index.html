@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/svg+xml" href="/assets/images/svg/favicon.svg">
-
     <title>Yoomi</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
@@ -61,6 +60,28 @@
                     height: {
                         'h-52': '200px',
                     },
+                    animation: {
+                        'shake': 'shake 300ms cubic-bezier(.36,.07,.19,.97) infinite',
+                    },
+                    keyframes: {
+                        'shake': {
+                            '0%': {
+                                transform: 'rotate(0deg);'
+                            },
+                            '20%': {
+                                transform: 'rotate(-4deg);'
+                            },
+                            '50%': {
+                                transform: 'rotate(0deg);'
+                            },
+                            '70%': {
+                                transform: 'rotate(4deg);'
+                            },
+                            '100%': {
+                                transform: 'rotate(0deg);'
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -437,7 +458,7 @@
                             src="./assets/images/webp/slider-two-image.webp" alt="image1">
                     </div>
                     <div>
-                        <img class=" w-fullaspect-video rounded-2xl" src="./assets/images/webp/slider-two-image-1.webp"
+                        <img class=" w-full aspect-video rounded-2xl" src="./assets/images/webp/slider-two-image-1.webp"
                             alt="image2">
                     </div>
                     <div>
@@ -499,9 +520,62 @@
             </div>
         </div>
     </section>
-    <!-- ==Footer -->
+    <!-- ==Footer section -->
     <section class="bg-black">
-        <div class="container">
+        <div class="container pt-[217px] pb-10 mx-auto">
+            <div class="flex flex-wrap ">
+                <div class="w-7/12 max-lg:w-full">
+                    <a href="/">
+                        <img class="pointer-events-none" src="./assets/images/svg/yoomi-footer-logo.svg"
+                            alt="footer-logo">
+                    </a>
+                    <p class="text-white max-w-[277px] font-light leading-[150%] pt-7">I'm a paragraph. Click here to
+                        add your own text and edit me. It’s easy. Just click “Edit Text” </p>
+                    <a class="gap-4 text-white flex mt-7 w-48 group" href="mailto:contact@yoomi.com">
+                        <img class="group-hover:animate-shake" src="./assets/images/svg/mail-logo.svg" alt="mail">
+                        contact@yoomi.com
+                    </a>
+                    <a class="gap-4 group text-white flex mt-7 w-48" href="tel:+123456789">
+                        <img class="group-hover:animate-shake" src="./assets/images/svg/phone-logo.svg" alt="call">
+                        +123 456 789
+                    </a>
+                </div>
+                <div class="w-5/12 justify-end flex max-lg:w-full">
+                    <div class="flex w-full max-lg:flex-wrap gap-7 max-lg:justify-center max-lg:items-center">
+                        <div class="w-4/12 max-lg:w-6/12 max-md:w-full">
+                            <p class="font-semibold text-sm max-sm:text-xs text-white">About Us</p>
+                            <ul class="list-none">
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Meet the Team</a></li>
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Our Mission</a></li>
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Our Vision</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-4/12 max-lg:w-6/12 max-md:w-full">
+                            <p class="font-semibold text-sm max-sm:text-xs text-white">Contact Us</p>
+                            <ul class="list-none">
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Twitter</a></li>
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Instagram</a></li>
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Linkedin</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-4/12 max-lg:w-6/12 max-md:w-full">
+                            <p class="font-semibold text-sm max-sm:text-xs text-white">News</p>
+                            <ul class="list-none">
+                                <li><a href="#" class="text-sm max-sm:text-xs  text-white"> Recent </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border border-b-2 border-white border-opacity-70"></div>
+        <div class="container py-6 mx-auto">
+            <div class="max-w-[304px] flex gap-7 ml-auto">
+                <a href="#" class="text-white opacity-70 text-sm max-sm:text-xs whitespace-nowrap ">Terms of Service</a>
+                <a href="#" class="text-white opacity-70 text-sm max-sm:text-xs whitespace-nowrap ">Privacy Policy</a>
+                <a href="#" class="text-white opacity-70 text-sm max-sm:text-xs whitespace-nowrap ">Cookies</a>
+            </div>
         </div>
     </section>
     <!-- ==JS links== -->
