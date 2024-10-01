@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Inter", sans-serif;
 }
 .font_plus_jakartas {
   font-family: "Plus Jakarta Sans", sans-serif !important;
 }
+/* ===navbar=== */
 .mobile-nav.active {
   left: 0;
   right: 50%;
@@ -28,6 +32,7 @@ body {
 .active .btn1 {
   opacity: 0;
 }
+/* ===slider first=== */
 .sliderOne .slick-list .slick-track {
   display: flex;
   gap: 35px;
@@ -60,6 +65,7 @@ body {
 .prev:hover path {
   fill: white;
 }
+/* ==slider second== */
 
 .slider-bottom .slick-track {
   gap: 40px !important;
@@ -78,11 +84,10 @@ body {
 .slider-box .slick-track .slick-slide {
   max-width: 460px !important;
 }
+
 .top-btn {
   font-size: 1.5rem;
-  position: fixed;
 
-  cursor: pointer;
   transform: scale(1.8);
   opacity: 0;
   transition: 0.3s;
